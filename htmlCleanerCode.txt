@@ -1,0 +1,16 @@
+use the following code in case the full College List gets messed up. This turns html into a coherent list of colleges:
+
+
+''' This was used to change messy html into a coherent list of all colleges
+def clean_html(s):
+    cleanText = re.sub('<.*?>', '', s)
+    cleanText = re.sub('[0-9]', '', cleanText)
+    cleanText = re.sub('\#', '', cleanText)
+    cleanText = re.sub('\([^)]*\)', '', cleanText)
+    cleanText = cleanText.replace('&', '')
+    cleanText = cleanText.replace(';', '').strip()
+    return cleanText
+
+cleanArray = [clean_html(s) for s in htmlArray]
+cleanArray = [s for s in cleanArray if len(s) > 1]
+'''
