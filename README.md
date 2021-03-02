@@ -33,5 +33,5 @@ the fullCollegeList.txt entry is less important - this is how you will address t
     (ex: "Dear Virginia Tech" or "Dear Virginia Polytechnical State and University") both are fine. it doesn't really matter what you call them
 
 A list of colleges that I have not implemented can be found in /text_files/moreColleges.txt
-You can add these if you want, but need to find the correct domain name and append the correct files to add these colleges ^^^ see previous instructions
+You can add these if you want, but need to find the correct domain name and append to the correct files to add these colleges ^^^ see previous instructions
 
