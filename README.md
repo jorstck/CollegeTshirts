@@ -27,7 +27,7 @@ for example:
 if you want to add Virginia Tech
 
 you would add "vt" on a new line in emailList.txt and you would add "Virginia Tech" to the SAME LINE NUMBER in fullCollegeList.txt
-it is important that the two new entries are on the same line number
+it is important that the two new entries are on the same line number.
 the emailList.txt entry is important that you write the domain name (write vt if you plan on sending to ...@vt.edu). This must be the exact domain name you want to send to)
 the fullCollegeList.txt entry is less important - this is how you will address the college in the email
     (ex: "Dear Virginia Tech" or "Dear Virginia Polytechnical State and University") both are fine. it doesn't really matter what you call them
