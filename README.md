@@ -14,6 +14,8 @@ edit /text_files/emailTemplate.txt and make sure this is what you want to send t
 run sendEmails.py to start the code (it will fail after some amount of emails are sent)
 follow instructions regarding the variable 'start_at' in sendEmails.py to see how to handle when the code fails
 
+after running sendEmails.py enough times, the program will exit without error. This means all emails have been sent
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 IF YOU WANT TO ADD MORE COLLEGES TO THE LIST:
