@@ -9,6 +9,7 @@ edit config.py and add your gmail credentials (username and password)
 
 edit /text_files/emailTemplate.txt and make sure this is what you want to send to colleges
 (make sure to put Sincerely, {your name} at the bottom. and write anything about yourself that you want the colleges to see)
+(make sure to put your home address (or wherever you want to receive tshirts at))
 
 run sendEmails.py to start the code (it will fail after some amount of emails are sent)
 follow instructions regarding the variable 'start_at' in sendEmails.py to see how to handle when the code fails
